@@ -31,5 +31,19 @@ public class RegistroNotas {
 
             notasEstudiantes.put(nombre, nota);
         }
+        // 3.lista
+        System.out.println("\nLista de estudiantes y sus notas:");
+        for (Map.Entry<String, Double> entry : notasEstudiantes.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+
+        // 4.Buscar
+        System.out.print("\nIngrese el nombre del estudiante para buscar su nota: ");
+        String nombreBuscado = scanner.nextLine();
+        if (notasEstudiantes.containsKey(nombreBuscado)) {
+            System.out.println("La nota de " + nombreBuscado + " es: " + notasEstudiantes.get(nombreBuscado));
+        } else {
+            System.out.println("Estudiante no encontrado.");
+        }
         }    
     }
