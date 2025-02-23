@@ -45,5 +45,19 @@ public class RegistroNotas {
         } else {
             System.out.println("Estudiante no encontrado.");
         }
+
+        // 5.Nota más alta
+        String mejorEstudiante = "";
+        double mejorNota = -1;
+        for (Map.Entry<String, Double> entry : notasEstudiantes.entrySet()) {
+            if (entry.getValue() > mejorNota) {
+                mejorNota = entry.getValue();
+                mejorEstudiante = entry.getKey();
+            }
+        }
+
+        System.out.println("\nEl estudiante con mejor rendimiento es " + mejorEstudiante + " con una nota de " + mejorNota);
+        scanner.close();
+
         }    
     }
