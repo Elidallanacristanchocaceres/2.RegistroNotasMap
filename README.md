@@ -1,4 +1,4 @@
-# 📚 Registro de Notas
+# 📚 Registro de Notas con Map
 
 Este proyecto en Java permite gestionar las notas de los estudiantes, facilitando su ingreso, búsqueda y análisis.
 
