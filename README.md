@@ -55,3 +55,10 @@ Este proyecto en Java permite gestionar las notas de los estudiantes, facilitand
 La nota de Juan es: 3.8
 
 - El estudiante con mejor rendimiento es Pedro con una nota de 4.9
+____
+### 📬 Contacto
+- 📧 Correo electrónico: cristanchodayana062017@gmail.com
+
+- 💼 LinkedIn: [Elidallana Cristancho Caceres](https://www.linkedin.com/in/elidallanacristancho/)
+
+¡Gracias por ser parte de esta aventura! 🚀✨
